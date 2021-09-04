@@ -10,7 +10,7 @@ const peers = {};
 
 navigator.mediaDevices
   .getUserMedia({
-    video: false,
+    video: true,
     audio: true,
   })
   .then((stream) => {
